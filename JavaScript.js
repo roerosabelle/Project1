@@ -12,12 +12,12 @@ for (i = 0; i <  rounds; i++) {
     document.write("<br/>" + "You have chosen " + user);
     var computerNumbers = Math.floor(Math.random() * 3) 
    
-var computer 
-if(computer <= 0) {
+var computer
+if(computerNumbers <= 0) {
     computer = "rock";
-} else if(computer <= 1) {
+} else if(computerNumbers <= 1) {
     computer = "paper";
-} else if(computer <= 2) {
+} else if(computerNumbers <= 2) {
     computer = "scissors";
 }
 
