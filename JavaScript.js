@@ -39,7 +39,8 @@ if(user === "scissors" && computer === "rock") {
 } else if(user === "scissors" || computer === "paper") {
     alert("You win!");
     userWins += 1;
-} else if(user === computer) {
+} else {
+    alert("You tied!");
     bothTie += 1;
 }
 }
